@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    margin: 0 auto;
+    font-size: 35px;
+    background-color: rgb(250, 250, 188);
+    text-align: center;
+}
+
+.EL{
+    color: black;
+    transition: .4s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.EL:hover{
+    color: rgb(255, 0, 0);
+    padding: 3px;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    transition: .4s;
+}
+
+.AR{
+    transition: .4s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.AR:hover{
+    color: rgb(255, 72, 0);
+    padding: 3px;
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.TE{
+    transition: .4s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.TE:hover{
+    color: rgb(255, 77, 0);
+    padding: 3px;
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.SA{
+    transition: .4s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.SA:hover{
+    color: rgb(247, 195, 53);
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    transition: .4s;
+    padding: 3px;
+}
+
+.NO{
+    transition: .4s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.NO:hover{
+    color: rgb(245, 203, 37);
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    padding: 3px;
+    transition: .4s;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 10px rgb(80, 79, 79);
+    transition: .4s;
+}
+
+
+.logo:hover{
+    padding: 2px;
+    transition: .3s;
+    box-shadow: 5px 5px 10px rgb(141, 141, 0);
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+}
+
+.titulo2{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 60px;
+}
+
+.buy{
+    animation-name: buy;
+    position: relative;
+    animation-duration: 3s;
+    transition: .6s;
+}
+
+.buy:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    padding: 3px;
+    transition: .4s;
+}
+
+@keyframes buy {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.resistors{
+    animation-name: resistors;
+    animation-duration: 4s;
+    position: relative;
+    transition: .6s;
+}
+
+.resistors:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    padding: 3px;
+    transition: .2s;
+}
+
+@keyframes resistors {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.Ven{
+    transition: .6s;
+    position: relative;
+    animation-duration: 3s;
+    animation-name: Ven;
+}
+
+@keyframes Ven {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.Ven:hover{
+    color: rgb(255, 255, 0);
+    padding: 3px;
+    text-shadow: 5px 5px 10px black;
+    transition: .5s;
+}
+
+.ezu{
+    animation-duration: 2s;
+    animation-name: ezu;
+    position: relative;
+    transition: .6s;
+}
+
+@keyframes ezu {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.ezu:hover{
+    color: rgb(0, 0, 255);
+    padding: 3px;
+    text-shadow: 5px 5px 10px black;
+    transition: .5s;
+}
+
+.ela{
+    transition: .6s;
+    animation-name: ela;
+    position: relative;
+    animation-duration: 3s;
+}
+
+@keyframes ela {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.ela:hover{
+    color: red;
+    text-shadow: 5px 5px 10px black;
+    padding: 3px;
+    transition: .5s;
+}
+
+.titulo3 {
+    text-align: center;
+    margin-top: 160px;
+    font-size: 40px;
+    transition: .4s;
+}
+
+.MY{
+    animation-name: MY;
+    position: relative;
+    animation-duration: 3s;
+    transition: .4s;
+}
+
+@keyframes MY {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.MY:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    transition: .4s;
+    padding: 4px;
+    text-decoration: underline  rgb(250, 250, 132);;
+}
+
+.WORK{
+    transition: .4s;
+    animation-name: WORK;
+    position: relative;
+    animation-duration: 3s;
+}
+
+.WORK:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    padding: 4px;
+    transition: .5s;
+    text-decoration: underline rgb(250, 250, 132);
+}
+
+@keyframes WORK {
+    0% {left: 0px; right: 0px;}
+    50% {left: 20px;}
+    100% {right: 20px; left: 0px;}
+}
+
+.logos{
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px black;
+    transition: .4s;
+}
+
+.logos2{
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: .4s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.logos3{
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: .4s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.logos:hover{
+    box-shadow: 7px 7px 10px black;
+    padding: 3px;
+    transition: .4s;
+}
+
+.logos2{
+    transition: .4s;
+    box-shadow: 7px 7px 5px black;
+}
+
+.logos2:hover{
+    box-shadow: 7px 7px 10px black;
+    padding: 4px;
+    transition: .5s;
+}
+
+.logos3{
+    transition: .4s;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.logos3:hover{
+    transition: .4s;
+    box-shadow: 5px 5px 10px black;
+    padding: 4px;
+}
+
+.redes{
+    font-size: 35px;
+    margin-top: 60px;
+    text-align: center;
+    transition: .4s;
+}
+
+.MYS{
+    transition: .4s;
+}
+
+.MYS:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    transition: .4s;
+}
+
+.NETWORKS{
+    transition: .4s;
+}
+
+.NETWORKS:hover{
+    color: rgb(250, 250, 132);
+    text-shadow: 5px 5px 10px black;
+    padding: 3px;
+    transition: .4s;
+}
+
+.parrafo{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.whasap{
+    margin-left: 80px;
+    transition: .4s;
+}
+
+.whasap:hover{
+    padding: 4px;
+    transition: .4s;
+}
+
+.insta{
+    transition: .4s;
+}
+
+.insta:hover{
+    padding: 4px;
+    transition: .4s;
+}
